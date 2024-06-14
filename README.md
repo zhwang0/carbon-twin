@@ -15,7 +15,7 @@ The Carbon-Twin dataset is a comprehensive collection of remote sensing data foc
 The repository includes codes for the following methods:
 - **LSTM**: A standard LSTM taking time-series ED inputs and outputting targets [Graves, 2012](https://www.cs.toronto.edu/~graves/phd.pdf).
 - **LSTNet**: A time-series model extracting short-term dependency using convolution along the time-feature dimension and long-term temporal patterns using RNN [Lai et al., 2018](https://arxiv.org/abs/1703.07015).
-- **DeepED**: An LSTM-based deep learning emulator for ED with specialized designs on error accumulation reduction and knowledge-guided learning [Wang et al., 2023](https://arxiv.org/abs/2304.04567).
+- **DeepED**: An LSTM-based deep learning emulator for ED with specialized designs on error accumulation reduction and knowledge-guided learning [Wang et al., 2023](https://doi.org/10.1145/3589132.3625577).
 - **Transformer (TF)**: A vanilla transformer model with a self-attention mechanism to capture dependencies across all time steps during the forecasting [Vaswani et al., 2017](https://arxiv.org/abs/1706.03762).
 - **Informer (IF)**: A transformer variant with a ProbSparse attention for reduced complexity [Zhou et al., 2021](https://arxiv.org/abs/2012.07436).
 - **DLinear (DL)**: A linear decomposition model to separate data into trend and seasonality, showing comparable performance among transformer-based models while maintaining efficiency [Zeng et al., 2023](https://arxiv.org/abs/2205.13504).
