@@ -13,8 +13,6 @@ The Carbon-Twin dataset is a comprehensive collection of remote sensing data foc
 
 ## Benchmarks
 The repository includes codes for the following methods:
-
-The repository includes codes for the following methods:
 - **LSTM**: A standard LSTM taking time-series ED inputs and outputting targets [Graves, 2012](https://www.cs.toronto.edu/~graves/phd.pdf).
 - **LSTNet**: A time-series model extracting short-term dependency using convolution along the time-feature dimension and long-term temporal patterns using RNN [Lai et al., 2018](https://arxiv.org/abs/1703.07015).
 - **DeepED**: An LSTM-based deep learning emulator for ED with specialized designs on error accumulation reduction and knowledge-guided learning [Wang et al., 2023](https://arxiv.org/abs/2304.04567).
@@ -28,4 +26,7 @@ The repository includes codes for the following methods:
 ## Usage
 ### Accessing the Dataset
 The dataset can be publicly available after publication.
+
+
+## Contact
 
