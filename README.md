@@ -19,7 +19,7 @@ The repository includes codes for the following methods:
 - **Transformer (TF)**: A vanilla transformer model with a self-attention mechanism to capture dependencies across all time steps during the forecasting [Vaswani et al., 2017](https://arxiv.org/abs/1706.03762).
 - **Informer (IF)**: A transformer variant with a ProbSparse attention for reduced complexity [Zhou et al., 2021](https://arxiv.org/abs/2012.07436).
 - **DLinear (DL)**: A linear decomposition model to separate data into trend and seasonality, showing comparable performance among transformer-based models while maintaining efficiency [Zeng et al., 2023](https://arxiv.org/abs/2205.13504).
-- **Crossformer (CF)**: A transformer variant with a two-stage attention mechanism for modeling both cross-time and cross-feature dependencies [Zhang et al., 2023](https://arxiv.org/abs/2303.11337).
+- **Crossformer (CF)**: A transformer variant with a two-stage attention mechanism for modeling both cross-time and cross-feature dependencies [Zhang et al., 2023](https://openreview.net/forum?id=vSVLM2j9eie).
 
 
 
